@@ -1,0 +1,177 @@
+body {
+  height: 200vh;
+  display: flex;
+  justify-content: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+.page_main {
+  background-color: white;
+  width: 400px;
+  height: 800px;
+  border: 5px solid cadetblue;
+  position: relative;
+}
+.section_status {
+  top: 0px;
+  width: 100%;
+  height: 50px;
+}
+.section_title {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.btn_exit {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 0px;
+  left: 0px;
+  margin-left: 40px;
+}
+.title {
+  position: absolute;
+  top: 5px;
+}
+.section_img {
+  width: 100%;
+  height: 150px;
+  position: relative;
+}
+.selected_album_img {
+  background-color: orange;
+  position: absolute;
+  border: 2px solid black;
+  width: 120px;
+  height: 120px;
+  margin: 15px 40px 15px 40px;
+  border-radius: 10px;
+}
+.selected_album_info {
+  position: relative;
+  height: 150px;
+  margin-left: 50%;
+}
+.song_name {
+  text-overflow: ellipsis;
+  top: 0px;
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.song_singer {
+  text-overflow: ellipsis;
+  bottom: 0px;
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.section_btn {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  box-shadow: 0px 5px black;
+}
+.btn_play {
+  margin: 0px 20px 0px 10px;
+  width: 160px;
+  height: 50px;
+  border-radius: 15px;
+}
+.btn_img {
+  width: 30px;
+  height: 30px;
+}
+.btn_heart {
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.btn_plus {
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.songinfo {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  position: relative;
+}
+.album_list_img1 {
+  border: 2px solid black;
+  background-color: tomato;
+  border-radius: 15px;
+  width: 70px;
+  height: 70px;
+  margin: 15px 15px 15px 40px;
+}
+.album_list_img2 {
+  background-color: hotpink;
+  border: 2px solid black;
+  border-radius: 15px;
+  width: 70px;
+  height: 70px;
+  margin: 15px 15px 15px 40px;
+}
+.album_list_img3 {
+  background-color: blue;
+  border: 2px solid black;
+  border-radius: 15px;
+  width: 70px;
+  height: 70px;
+  margin: 15px 15px 15px 40px;
+}
+.album_list_img4 {
+  background-color: cadetblue;
+  border: 2px solid black;
+  border-radius: 15px;
+  width: 70px;
+  height: 70px;
+  margin: 15px 15px 15px 40px;
+}
+.album_list_info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.menu_song_title {
+  text-overflow: ellipsis;
+  width: 200px;
+  height: 40px;
+}
+.menu_song_singer {
+  text-overflow: ellipsis;
+  width: 200px;
+  height: 40px;
+}
+.menu_song_inner_info {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}

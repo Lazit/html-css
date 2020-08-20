@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>repl.it</title>
+    <style>
+      body {
+        background-color: #f5f5f5;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      }
+
+      .container {
+        background-color: #fff;
+        width: 200px;
+        height: 280px;
+        position: relative;
+        padding: 10px;
+        margin: 10px;
+      }
+
+      .header {
+        width: calc(100% - 20px);
+        height: 15px;
+        position: absolute;
+        left: 10px;
+        top: 10px;
+        background-color: #ff6346;
+      }
+
+      .color-info {
+        margin-top: 30px;
+      }
+
+      .footer {
+        width: calc(100% - 20px);
+        height: 180px;
+        position: absolute;
+        left: 10px;
+        bottom: 10px;
+        background-color: #ff6346;
+      }
+
+      .container:nth-child(2) > .header {
+        background-color: #008080;
+      }
+
+      .container:nth-child(2) > .footer {
+        background-color: #008080;
+      }
+
+      .container:nth-child(3) > .header {
+        background-color: #deb887;
+      }
+
+      .container:nth-child(3) > .footer {
+        background-color: #deb887;
+      }
+
+      .container:nth-child(4) > .header {
+        background-color: #d7bfd7;
+      }
+
+      .container:nth-child(4) > .footer {
+        background-color: #d7bfd7;
+      }
+
+      .color-info {
+        margin-top: 30px;
+      }
+
+      .color-code {
+        margin: 15px 0;
+      }
+
+      .wrapper {
+        width: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+
+      .title {
+        width: 500px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="title">The Bese Color</h1>
+    <div class="wrapper">
+      <div class="container">
+        <div class="header"></div>
+        <div class="color-info">
+          <div class="color-name">Tomato</div>
+          <div class="color-code">#FF6346</div>
+        </div>
+        <div class="footer"></div>
+      </div>
+      <div class="container">
+        <div class="header"></div>
+        <div class="color-info">
+          <div class="color-name">Teal</div>
+          <div class="color-code">#008080</div>
+        </div>
+        <div class="footer"></div>
+      </div>
+      <div class="container">
+        <div class="header"></div>
+        <div class="color-info">
+          <div class="color-name">Burlywood</div>
+          <div class="color-code">#DEB887</div>
+        </div>
+        <div class="footer"></div>
+      </div>
+      <div class="container">
+        <div class="header"></div>
+        <div class="color-info">
+          <div class="color-name">Thistle</div>
+          <div class="color-code">#D7BFD7</div>
+        </div>
+        <div class="footer"></div>
+      </div>
+    </div>
+  </body>
+</html>
