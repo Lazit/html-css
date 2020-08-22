@@ -11,14 +11,13 @@
       format("truetype");
 }
 body {
-  width: 100vh;
-  height: 100vh;
+  height: 140vh;
   display: flex;
   justify-content: center;
   background-color: whitesmoke;
 }
 h1 {
-  font-family: "Swiss 721";
+  font-family: "Nunito", sans-serif;
   font-size: 25px;
   margin-bottom: 15px;
   color: rgb(50, 50, 50);
@@ -38,7 +37,7 @@ h5:hover {
   transform: scale(1.05);
 }
 h2 {
-  font-family: "Swiss 721";
+  font-family: "Nunito", sans-serif;
   color: rgb(50, 50, 50);
   height: 23px;
   display: flex;
@@ -222,7 +221,7 @@ button:focus {
   width: 320px;
   height: 70px;
   border-radius: 100px;
-  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
 }
 .player_current {
   position: absolute;
@@ -241,9 +240,9 @@ button:focus {
   color: white;
 }
 .player_i {
-  position: absolute;
+  margin-left: 150px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   right: 15px;
   color: white;
@@ -305,8 +304,8 @@ progress:hover {
 }
 .player_icons {
   display: flex;
-  justify-content: center;
-  margin: 20px;
+  justify-content: space-between;
+  margin: 25px 15px 0px 15px;
 }
 .player_icons button {
   background-color: transparent;
@@ -315,14 +314,12 @@ progress:hover {
 .player_icons button:last-child {
   opacity: 0.3;
   font-size: 20px;
-  margin: 20px;
   transition: transform 0.05s ease-in-out;
 }
 .player_icons button:nth-child(2),
 .player_icons button:nth-child(4) {
   size: 2px;
   font-size: 20px;
-  margin: 10px;
   transition: transform 0.05s ease-in-out;
 }
 .player_icons button:first-child:hover,
@@ -336,7 +333,6 @@ progress:hover {
 .player_icons button:nth-child(3) {
   size: 4x;
   font-size: 80px;
-  margin: 10px;
 }
 [data-audio] {
   cursor: pointer;
